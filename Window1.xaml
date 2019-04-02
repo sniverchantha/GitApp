@@ -1,0 +1,16 @@
+﻿<Window x:Class="WinReportSample.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WinReportSample"
+        mc:Ignorable="d"
+        Title="Window1" Height="300" Width="300">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Button Content="Clear Preview" Name="btnClear1" MinWidth="100" Margin="10"/>
+            <Button Content="Clear Preview" Name="btnClear" MinWidth="100" Margin="10" />
+
+        </StackPanel>
+</Grid>
+</Window>
